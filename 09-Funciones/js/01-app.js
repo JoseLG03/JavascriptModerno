@@ -14,14 +14,13 @@ reproductor.play(2);
 reproductor.stop(4);
 reproductor.borrar(3);
 
-function aprender(materia){
-    return console.log(`Bienvenido a el estudio de ${materia}.`);
+let aprender = function(materia, materia2){
+    return console.log(`Bienvenido al estudio de ${materia} y ${materia2}.`);
 }
 
-aprender("Historia");
+aprender("Historia", "Geografia");
 
-aprendiendo = (materias) => {
-    return console.log(`Bienvenido a el estudio de ${materias}.`);
-}
+aprendiendo = (materias, materias2) => console.log(`Bienvenido al estudio de ${materias} y ${materias2}.`);
 
-aprendiendo("Programacion");
+
+aprendiendo("Programacion", "SQL");
