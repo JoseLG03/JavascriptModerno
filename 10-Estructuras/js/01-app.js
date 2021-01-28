@@ -9,11 +9,15 @@ for(let i = 0; i <= 20; i++){
 let carrito = [
     {nombre:"Monitor de 45 pulgadas", precio:120},
     {nombre:"Smart TV", precio:200},
-    {nombre:"Switch", precio:700},
+    {nombre:"Switch", precio:700, descuento: true},
     {nombre:"Camara", precio:1050},
     {nombre:"Laptop", precio:160}
 ];
 
 for( i = 0; i < carrito.length; i++ ){
+    if(carrito[i].descuento){
+        console.log(`El producto ${carrito[i].nombre} tiene descuento.`);
+        continue;
+    }
     console.log(carrito[i].nombre);
 };
