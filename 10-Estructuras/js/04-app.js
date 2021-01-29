@@ -17,3 +17,20 @@ for( let tarea of tareas){
 for (let producto of carrito){
     console.log(producto.nombre);
 }
+//for of itera sobre arreglos
+
+//for in itera sobre objetos
+
+for (let producto in carrito){
+    console.log(producto);
+}
+
+let auto = {
+    modelo:"Camaro",
+    año:1978,
+    motor:6.5
+}
+
+for( let [i, propiedad] of Object.entries(auto) ){
+    console.log(`El ${i} es: ${propiedad}.`);
+}
