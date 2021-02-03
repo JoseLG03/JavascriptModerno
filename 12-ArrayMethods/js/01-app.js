@@ -7,5 +7,6 @@ const carrito = [
     { nombre: 'Audifonos', precio: 300 },
     { nombre: 'Teclado', precio: 400 },
     { nombre: 'Celular', precio: 700 },
-    {nombre:"laptop", precio:1500s}
+    {nombre:"laptop", precio:1500},
+    {nombre:"pantalla", precio:4550}
 ]
