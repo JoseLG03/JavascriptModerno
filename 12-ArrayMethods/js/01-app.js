@@ -22,4 +22,6 @@ let res = carrito.some( (producto) => {
     return producto.nombre == "Celular";
 } );
 
-console.log(res);
+let res2 = carrito.some( producto => producto.nombre == "Celular");
+
+console.log(res2);
