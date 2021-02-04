@@ -7,6 +7,19 @@ const carrito = [
     { nombre: 'Audifonos', precio: 300 },
     { nombre: 'Teclado', precio: 400 },
     { nombre: 'Celular', precio: 700 },
-    {nombre:"laptop", precio:1500},
-    {nombre:"pantalla", precio:4550}
+    { nombre: "Laptop", precio:1500},
+    { nombre: "Pantalla", precio:4550}
 ]
+
+meses.forEach( (mes) =>{console.log(mes)});
+
+let resultado = meses.includes("Febrero");
+
+console.log(resultado);
+//En un arreglo de objetos se usa el .some
+
+let res = carrito.some( (producto) => {
+    return producto.nombre == "Celular";
+} );
+
+console.log(res);
