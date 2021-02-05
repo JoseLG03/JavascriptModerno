@@ -1,4 +1,4 @@
-const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio'];
+const meses = ['Enero', 'Febrero', "Marzo", 'Abril', 'Mayo', 'Junio', 'Julio'];
 
 const carrito = [
     { nombre: 'Monitor 27 Pulgadas', precio: 500 },
@@ -10,3 +10,13 @@ const carrito = [
     { nombre: "Laptop", precio:1500},
     { nombre: "Pantalla", precio:4550}
 ]
+
+//encontrar el valor del indice
+let indice = meses.findIndex( mes => mes == 'Mayo');
+
+console.log(indice);
+
+//encontar el valor del indice en un arreglo de objetos
+let i = carrito.findIndex( producto =>  producto.precio == 1500);
+
+console.log(i);
