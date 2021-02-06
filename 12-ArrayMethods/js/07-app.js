@@ -1,5 +1,6 @@
 const meses = ['Enero', 'Febrero', "Marzo", 'Abril', 'Mayo', 'Junio', 'Julio'];
-const meses2 = ['Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+const meses2 = ['Agosto', 'Septiembre', 'Octubre'];
+const meses3 = ['Noviembre', 'Diciembre'];
 
 const carrito = [
     { nombre: 'Monitor 27 Pulgadas', precio: 500 },
@@ -12,6 +13,12 @@ const carrito = [
     { nombre: "Pantalla", precio:4550}
 ]
 
-let annio = meses.concat(meses2);
+let annio = meses.concat(meses2, meses3);
 
 console.log(annio);
+
+//Si pones ... significa que es un arreglo
+
+let annio2 = [...meses, ...meses2, ...meses3];
+
+console.log(annio2);
