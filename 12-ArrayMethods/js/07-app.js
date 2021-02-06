@@ -11,3 +11,7 @@ const carrito = [
     { nombre: "Laptop", precio:1500},
     { nombre: "Pantalla", precio:4550}
 ]
+
+let annio = meses.concat(meses2);
+
+console.log(annio);
