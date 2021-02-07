@@ -17,7 +17,7 @@ let annio = meses.concat(meses2, meses3);
 
 console.log(annio);
 
-//Si pones ... significa que es un arreglo
+//Si pones ... significa que es un arreglo...
 
 let annio2 = [...meses, ...meses2, ...meses3];
 
