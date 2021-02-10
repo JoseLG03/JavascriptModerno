@@ -1,4 +1,4 @@
-let header = document.querySelector("h1");
+let header = document.querySelector("h1").textContent = "Nuevo encabezado";
 
 console.log(header);
 
