@@ -8,7 +8,7 @@ console.log(enlace);
 
 let nav = document.querySelector(".navegacion");
 
-//Lo agrega al final
+//Lo agrega al final del div
 //nav.appendChild(enlace);
 
 nav.insertBefore(enlace, nav.children[0]);
